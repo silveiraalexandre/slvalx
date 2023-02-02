@@ -1,0 +1,135 @@
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://thenewcode.com/assets/images/final-starfield.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center ;
+    background-blend-mode: darken;
+    width: auto; height: auto;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    color:  #bab8b5;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+
+    /* Aqui foram selecionados o backgorund, borda, alinhamento de texto e fonte.
+    todos são comums para o conteudo do <body> */
+    
+}
+
+header{
+    width: auto; height: auto;
+    margin: 0;
+    padding: 10px;
+    /*background-color: rgba(255, 0, 0, 0.252);*/
+    /* alteração da largura e altura do cabeçalho para 'auto'*/
+    }
+    #texto-titulo{
+        font-size: 6vw;
+    }
+
+    .bloco-video{
+        width: auto;
+        height: auto;
+        position: relative;
+        margin: 0;
+        padding: 10px;
+    }
+
+
+    .bloco-vantagens{
+        width: auto; height: auto;
+        background-color: #121212;
+        opacity: 0.9;
+        padding: 5px; 
+        font-size: larger;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 80px;
+        padding-top: 80px;
+        font-size: 3vw;
+    }
+            #titulo-vantagens{
+                color: #e1e0de;
+                font-weight: bold;
+                margin: 0;
+                padding: 20px;
+                    }
+            .item-vantagem{
+                    font-style: italic;
+                    margin: 0;
+                    padding: 10px;
+                    }
+
+    .bloco-depoimentos{
+        width: auto; height: auto;
+        background-color: #837c78;
+        opacity: 0.9;
+        padding: 1px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        gap: 1px;
+        margin: 0;
+        padding-bottom: 100px;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 1.5vw;
+    }
+            #titulo-depoimentos{
+                background-color: #837c78;
+                opacity: 0.9;
+                font-weight: bold;
+                font-size: larger;
+                text-align: center;;
+                width: auto; height: auto;
+                background-color: #837c78;
+                margin: 0;
+                padding-top: 80px;
+                font-size: 3vw;
+            }
+            #subtitulo-depoimentos{
+                background-color: #837c78;
+                opacity: 0.9;
+                margin: 0;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                font-size: 2vw;
+          
+            }
+
+            .depoentes{
+                width: 50%;
+               flex-direction: row;
+               padding: 10px 10px 10px 10px;
+               justify-content: space-between;
+
+            }
+
+            #pessoas-dep{  
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+
+            }
+
+    .bloco-04{
+        width: auto; height: auto;
+        background-color: transparent;
+        padding-bottom: 100px;
+        padding-top: 100px;
+        margin: 0;
+        font-size: 2vw;
+    }
+
+
+    .ropade{
+
+        width: 300px; height: 150px;
+        background-color: rgb(89, 0, 255);
+        padding: 50px 50px;
+    }
